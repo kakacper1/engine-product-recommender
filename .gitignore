@@ -1,0 +1,77 @@
+# --- Python ---
+__pycache__/
+*$py.class
+
+# --- Virtual Environments ---
+.env
+.venv/
+venv/
+env/
+ENV/
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- IDE / Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Data Files ---
+data/
+datasets/
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.h5
+*.pkl
+*.joblib
+*.pt
+*.onnx
+
+# --- Logs ---
+*.log
+logs/
+nohup.out
+
+# --- Build / Packaging ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Jupyter ---
+.ipynb_checkpoints
+.profile_default/
+.ipython/
+.jupyter/
+
+# --- Docker ---
+docker-compose.override.yml
+.dockerignore
+docker-compose.override.yml
+**/Dockerfile.*
+*.pid
+*.sock
+*.db
+*.sqlite3
+**/volumes/
+**/tmp/
+**/__pycache__/
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- PyInstaller / Executables ---
+*.spec
+*.exe
+*.dll
+*.so
+
+# --- Misc ---
+.tmp/
+.cache/
+*.bak
